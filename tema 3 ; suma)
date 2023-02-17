@@ -1,0 +1,18 @@
+package com. empresa;
+
+import java.util.ArrayList;
+
+ public class main {
+
+     public static void main(String[] args) {
+         suma(23, 43, 77);
+
+
+     }
+
+     public static void suma(int i, int i1, int i2) {
+         int resultado;
+         resultado = i + i1 + i2;
+         System.out.println(resultado);
+     }
+ }
