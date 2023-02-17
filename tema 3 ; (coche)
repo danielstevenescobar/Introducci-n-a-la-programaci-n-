@@ -1,0 +1,17 @@
+package com. empresa;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Coche miCoche = new Coche();
+        int ad2 = 2, atr2 = 0, male1 = 0;
+       miCoche.marca = "mercedez";
+       miCoche.color = "gris";
+       miCoche.numerosDePuertas ="5 puertas";
+        miCoche.sumarPuertas(ad2, atr2, male1);
+        miCoche.sumarPuertas(ad2, atr2, male1);
+        System.out.println("miCoche.numeroDePuertas es:5");
+
+    }
+
+}
