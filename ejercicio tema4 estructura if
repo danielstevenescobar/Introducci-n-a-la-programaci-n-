@@ -1,0 +1,20 @@
+package ejercicio.tema4_openbootcam;
+
+public class Main {
+
+    public static void main(String[] args) {
+         // if, else if, y else
+        int numeroif = 3;
+
+        if (numeroif<1){
+            System.out.println("la variable numeroif" + numeroif + "es negativo");
+        }
+        else if (numeroif>0){
+            System.out.println("la variable numeroif" + numeroif + "es positivo");
+        }
+        else {
+            System.out.println("la variable numeroif es 0");
+
+        }
+    }
+}
