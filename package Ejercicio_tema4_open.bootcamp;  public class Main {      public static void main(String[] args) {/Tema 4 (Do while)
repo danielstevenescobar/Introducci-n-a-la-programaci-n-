@@ -1,0 +1,14 @@
+package Ejercicio_tema4_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //Do while
+        int variablecontador= 3;
+
+        do {
+            System.out.println("la variable contador ahora vale:" + variablecontador);
+            variablecontador = variablecontador -2;
+        } while ( variablecontador >3 );
+    }
+}
