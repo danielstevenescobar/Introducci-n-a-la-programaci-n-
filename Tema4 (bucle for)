@@ -1,0 +1,11 @@
+package Ejercicio_tema4_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //for
+        for (int numeroFor = 0; numeroFor <4; numeroFor++){
+            System.out.println("la variable numeroFor ahora vale:" + numeroFor);
+        }
+    }
+}
