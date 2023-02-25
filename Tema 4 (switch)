@@ -1,0 +1,28 @@
+package Ejercicio_tema4_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //switch
+        String estacion = "primavera";
+
+        switch(estacion) {
+            case "verano":
+                System.out.println("Estamos en verano");
+                break;
+            case "otoño":
+                System.out.println("Estamos en otoño");
+                break;
+            case "invierno":
+                System.out.println("Estamos en invierno");
+                break;
+            case "primavera":
+                System.out.println("Estamos en primavera");
+                break;
+            default:
+                System.out.println("No es una estacion");
+
+        }
+
+    }
+}
