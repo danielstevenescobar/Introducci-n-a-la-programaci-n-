@@ -1,0 +1,14 @@
+package Ejercicio_tema4_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //While
+        int numeroWhile = 0;
+
+        while (numeroWhile < 3) {
+            numeroWhile++;
+            System.out.println("la variable numeroWhile vale:" + numeroWhile);
+        }
+    }
+}
