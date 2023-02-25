@@ -1,0 +1,59 @@
+package Ejercicios_tema4_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // if, else if, y else
+        int numeroif = 3;
+
+        if (numeroif < 1) {
+            System.out.println("la variable numeroif" + "es negativo");
+        } else if (numeroif > 0) {
+            System.out.println("la variabele numeroif" + "es positivo");
+        } else {
+            System.out.println("la variable numeroif es 0");
+        }
+
+        //while
+        int numeroWhile = 0;
+
+        while (numeroWhile < 3) {
+            numeroWhile++;
+            System.out.println("la variable numeroWhile vale:" + numeroWhile);
+        }
+
+        //Do while
+        //Al no cumplirse la condicion, solo entra en el bucle una sola vez
+        int variablecontador = 3;
+
+        do {
+            System.out.println("la variable contador ahora vale:" + variablecontador);
+            variablecontador = variablecontador - 2;
+        } while (variablecontador < 0);
+
+        //for
+        for (int numeroFor = 0; numeroFor >=4; numeroFor++) {
+            System.out.println("la variable numeroFor ahora vale:" + numeroFor);
+        }
+
+        //switch
+        String estacion = "primavera";
+
+        switch (estacion) {
+            case "verano":
+                System.out.println("Estamos en verano");
+                break;
+            case "otoño":
+                System.out.println("Estamos en otoño");
+                break;
+            case "invierno":
+                System.out.println("Estamos en invierno");
+                break;
+            case "primavera":
+                System.out.println("Estamos en primavera");
+                break;
+            default:
+                System.out.println("No es una estacion");
+        }
+    }
+}
