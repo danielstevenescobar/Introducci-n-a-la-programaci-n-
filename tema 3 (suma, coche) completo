@@ -1,0 +1,31 @@
+package Ejercicios_tema3_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        suma(12, 28, 32);
+
+        Coche miCoche = new Coche();
+
+        miCoche.sumarPuertas();
+        miCoche.sumarPuertas();
+        miCoche.sumarPuertas();
+        System.out.println("El numero de puertas es:" + miCoche.numeroDePuertas);
+
+    }
+
+    public static void suma(int x, int y, int z) {
+        int resultado;
+        resultado = x + y + z;
+        System.out.println(resultado);
+    }
+}
+
+class Coche {
+    public int numeroDePuertas = 2;
+
+    public void sumarPuertas() {
+
+        this.numeroDePuertas++;
+    }
+}
