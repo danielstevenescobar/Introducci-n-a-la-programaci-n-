@@ -1,0 +1,37 @@
+package ejercicio_tema9_open.bootcamp;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Cliente cliente = new Cliente();
+        Trabajador trabajador = new Trabajador();
+        cliente.nombre = "Daniel";
+        cliente.edad = 27;
+        cliente.telefono = 931298674;
+        cliente.credito = 300;
+        System.out.println("Soy " + cliente.nombre + ", tengo " + cliente.edad + "años y mi telefono es " + cliente.telefono
+                + "y mi credito disponible es " + cliente.credito + "$");
+
+        trabajador.nombre = "Steven";
+        trabajador.edad = 30;
+        trabajador.telefono = 932100733;
+        trabajador.salario = 7000;
+        System.out.println("Soy " + trabajador.nombre + ",tengo" + trabajador.edad + "años y mi telefono es " + trabajador.telefono
+                + " y mi salarios es de " + trabajador.salario + "$");
+
+    }
+}
+
+class Persona {
+    int edad;
+    int telefono;
+    String nombre;
+}
+
+class Cliente extends Persona {
+    double credito;
+}
+
+class Trabajador extends Persona {
+    double salario;
+}
